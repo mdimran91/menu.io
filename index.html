@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cofee Shop</title>
+        <meta name="viewport" content="width-device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script  src="http://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('ul').toggleClass('active');
+                })
+            })
+        </script>
+    
+    </head>
+    <body>
+        <section>
+            <header>
+                <a href="#"><img class="logo-img" src="logo.jpg" alt=""></a>
+                <a class="toggle">&#9776;</a>
+                <ul class="active">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+        </section>
+    </body>
+</html>
